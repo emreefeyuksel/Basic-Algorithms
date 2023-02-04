@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #define size 10
+/*A program that finds the standart deviation of the array taken from the user*/
 float calSD(int arr[size]){
     float sum=0,varsum=0;
       for (int i=0;i<size;i++){
