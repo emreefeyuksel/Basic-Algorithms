@@ -4,9 +4,6 @@ void reverser(char* star,char* revstar){
     int i=0;
     while(*star){
         star++;     i++;//Increasing index until the string is over (encountering '\0')
-        if(*(star+i)=='a'){
-            printf("\nAAAAAAAAA\n");
-        }
     }
     while(i>=0){
         star--;     *revstar=*star;//decreasing index and putting the value to reverse array
