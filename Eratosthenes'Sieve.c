@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define N 200
-
+/*Eratosthenes' Algorithm Implementation with arrays*/
 int main() {
     int arr[N];
     int p=1;
