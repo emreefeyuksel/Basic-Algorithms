@@ -2,7 +2,7 @@
 
 int arr[]={9,2,8,5,1,6,7,4,3};
 int size=9;
-
+/*A program that finds pairs in the array which equals to the target number*/
 void print_arr(){
     for (int i = 0; i < size; ++i) {
         printf("%d ",arr[i]);
