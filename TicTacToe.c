@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 char table[9];
+//A classic TicTacToe game
 int  selection(char p[],int turn){
     int choice;
     while(1){
