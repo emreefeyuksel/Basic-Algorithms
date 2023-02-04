@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
+
 int Uni[]={1,2,3,4,5,6,7,8,9,10};
+
 void SetCheck(int Sub[],int size){
     bool a;
     for (int i = 0; i < size; ++i) {
