@@ -14,7 +14,7 @@ void sort(int arr[],int size){
         printf("%d ",arr[i]);
     }
 }
-
+//Binary Search
 int Bsearch(int arr[],int low,int high,int n){
     int mid = low + (high - low) / 2;
     if(high>=low){
@@ -27,7 +27,7 @@ int Bsearch(int arr[],int low,int high,int n){
     }
     return -1;
 }
-
+//Linear Search
 int Lsearch(int arr[],int size,int n){
     sort(arr,size);
     int i;
