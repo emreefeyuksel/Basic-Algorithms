@@ -3,6 +3,8 @@
 #define Maxcol 10
 #define Frame 36
 
+/*Doing some rotating-sorting operations with an array of 100 integers*/
+
 void readMatrix(int matrix[Maxrow][Maxcol]){
     printf("please enter the matrix numbers\n");
     for(int i=0;i<Maxrow;i++){
