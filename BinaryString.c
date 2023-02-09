@@ -10,8 +10,7 @@ int main() {
     char str[]={"11010110110001011010101101110111011011011010101011011101010101101101"};//original string
     char ptr[]={"101101"};//string pattern that we need to find and extract from original string
 
-    /*******************HALAL VERSION*********************/
-    for (int a = 0; str[a]!='\0'; ++a) {//dummy ıteration
+    for (int a = 0; str[a]!='\0'; ++a) {
         for (int i = 0; str[i]!='\0'; ++i) {
             int ctrl=1;
             //check pattern
@@ -35,8 +34,8 @@ int main() {
             }
         }
     }
-    for (int amk = 0; str[amk]!='\0' ; ++amk) {
-        printf("%c",str[amk]);
+    for (int f = 0; str[f]!='\0' ; ++f) {
+        printf("%c",str[f]);
     }
     printf("<---- Final String");
     return 0;
